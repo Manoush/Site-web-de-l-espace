@@ -1,0 +1,44 @@
+header{
+    padding-top:20px;
+    padding-bottom: 20px;
+    
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+header li {
+   display: inline-block;
+    width: 22%;
+    text-align: center;
+    }
+    
+    
+    h1 {
+    text-align: center;
+}
+
+.photofond-1 {
+    background-image: url(images/Fond%20espace.jpg);
+    background-size:cover;
+}
+        
+        
+        footer { 
+    margin-top: 80px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+body p {
+    padding:40px;
+   text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+
