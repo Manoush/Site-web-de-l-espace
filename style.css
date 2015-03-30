@@ -1,3 +1,30 @@
+
+@font-face {
+    font-family: 'a_space_lightregular';
+    src: url('fonts/aspace_light_demo-webfont.eot');
+    src: url('fonts/aspace_light_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aspace_light_demo-webfont.woff2') format('woff2'),
+         url('fonts/aspace_light_demo-webfont.woff') format('woff'),
+         url('fonts/aspace_light_demo-webfont.ttf') format('truetype'),
+         url('fonts/aspace_light_demo-webfont.svg#a_space_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alien_league_gradientregular';
+    src: url('fonts/alienleaguegrad-webfont.eot');
+    src: url('fonts/alienleaguegrad-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/alienleaguegrad-webfont.woff2') format('woff2'),
+         url('fonts/alienleaguegrad-webfont.woff') format('woff'),
+         url('fonts/alienleaguegrad-webfont.ttf') format('truetype'),
+         url('fonts/alienleaguegrad-webfont.svg#alien_league_gradientregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 header{
     padding-top:20px;
     padding-bottom: 20px;
@@ -11,11 +38,11 @@ ul{
 
 header li {
     display: inline-block;
-    width: 22%;
+    width: 23%;
     text-align: center;
     color: white;
     text-decoration: none;  
-    font-family: a•space Light;
+    font-family: 'a_space_lightregular', sans-serif;
     
     
     }
@@ -32,39 +59,46 @@ header li {
 h1.titre-principal {
     text-align: center;
     color:#DA70D6;
-    font-family:Alien League Gradient;
-    margin-top:10%;
+    font-family: 'alien_league_gradientregular', sans-serif;
+    margin-top:07%;
 }
 
 .photofond-1 {
-    background-image: url(images/Fond%20espace.jpg);
+    background-image:url(images/Fond%20espace.jpg);
     background-size:cover;
+    
 }
         
         
         footer { 
     margin-top: 80px;
     position:fixed;
-    bottom: 0;
+    bottom: 25;
     width: 100%;
 
 }
 
 body p {
-    padding:40px;
+    padding:20px;
     text-align: center;
     max-width: 500px;
     margin: auto;
     color:white;
-    font-family: a•space Light;
+    font-family: 'a_space_lightregular', sans-serif;
+    font-size:80%;
 }
 
 a {
     text-decoration: none;color:white;
     
-    
     }
     
+footer a:hover {
+    text-decoration:underline;
+    font-family: 
+    
+        }
+        
     
 
 
