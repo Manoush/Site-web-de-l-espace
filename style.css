@@ -61,6 +61,7 @@ h1.titre-principal {
     color:#DA70D6;
     font-family: 'alien_league_gradientregular', sans-serif;
     margin-top:07%;
+     
 }
 
 .photofond-1 {
@@ -69,13 +70,6 @@ h1.titre-principal {
     
 }
         
-        
-          
-    margin-top: 80px;
-    position:fixed;
-    bottom: 25;
-    width: 100%;
-
 
 
 body p {
@@ -84,7 +78,7 @@ body p {
     max-width: 500px;
     margin: auto;
     color:white;
-    font-family: 'a_space_lightregular', sans-serif;
+    font-family: 'a_space_lightregular';
     font-size:80%;
 }
 
@@ -106,8 +100,61 @@ footer {
     position:fixed;
     bottom: 25;
     width: 100%;
+  
+    }
+
+
+footer a {
+    display:inline-block; 
+    width: 10%; 
     
     }
+
+.bouton {
+    width: 5%;
+    height: 5%;
+    bottom: 50;
+    margin-left: 595;
+    margin-top: 20;
+}
+
+.bouton:hover {
+    -moz-transform: rotate(5deg) scale(1.10);
+    -webkit-transform: rotate(5deg) scale(1.10);
+    -o-transform: rotate(5deg) scale(1.10);
+    -ms-transform: rotate(5deg) scale(1.10);
+    transform: rotate(5deg) scale(1.10);
+    opacity: 1;
+    
+    }
+
+
+.photofond-2 {
+    background-image:url(images/Espace%20turquoise.jpg);
+    background-size:cover;
+    
+    }
+
+.photofond-3 {
+    background-image: url(images/space4.png);
+    background-size: cover; 
+    
+    }
+    
+.soleil {
+    with:20%;
+    height: 20%;
+    
+}
+    
+    
+    
+    
+    
+    
+
+
+
     
         
     
